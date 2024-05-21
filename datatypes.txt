@@ -6,3 +6,6 @@ normal: 16
 
 global variables: accessed anywhere in the program.
 local variables: only accessible in certain regions.
+
+in the example:
+in the foo() function, even if it is called, the local var will still belong to foo only.
