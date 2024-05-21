@@ -1,0 +1,8 @@
+int: 16 bits
+double: 32 bits
+char: 8 bits
+
+normal: 16
+
+global variables: accessed anywhere in the program.
+local variables: only accessible in certain regions.
