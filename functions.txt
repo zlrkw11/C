@@ -1,0 +1,13 @@
+int: 16 bits
+double: 32 bits
+char: 8 bits
+
+normal: 16
+
+global variables: Declared outside ANY function, accessed ANYWHERE in the program. 
+local variables: only accessible in certain regions.
+
+in the example:
+in the foo() function, even if it is called, the local var will still belong to foo only.
+
+when printing out in main() function, the local will refer to the local to main.
